@@ -7,33 +7,33 @@
 
 body{
     width: 100%;
-    min-height: 100vh; /* better than fixed height */
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(146, 199, 142);
+    background-color: rgba(139, 234, 144, 0.647);
 }
 
 .clock{
-    width: clamp(250px, 80vw, 400px); /* responsive size */
+    width: clamp(250px, 80vw, 400px);
     aspect-ratio: 1 / 1;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     padding: clamp(10px, 3vw, 20px);
-    border: 5px solid white;
+    border: 5px solid rgb(231, 242, 212);
     background: linear-gradient(rgb(18, 125, 102), lightgreen);
-    color: white;
+    color: rgb(249, 243, 243);
     font-size: clamp(20px, 5vw, 50px);
     font-weight: bold;
-    box-shadow: 0px 0px 25px rgba(255, 254, 254, 0.489);
+    box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.489);
 }
 
 .clock p{
-    font-size: clamp(40px, 10vw, 100px); /* responsive text */
+    font-size: clamp(40px, 10vw, 100px);
     margin: 0 clamp(5px, 2vw, 10px);
     background-color: #ffffff4b;
-    padding: 5px 10px;
-    border-radius: 10px;
+    padding: 5px 5px;
+    border-radius: 15px;
 }
